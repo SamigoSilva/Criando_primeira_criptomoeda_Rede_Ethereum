@@ -20,3 +20,11 @@ A secure and gas-efficient ERC-20 token with mint/burn functionality, built with
 ### Installation
 ```bash
 npm install @openzeppelin/contracts
+```
+How to Use
+```bash
+npx hardhat run scripts/deploy.js --network localhost
+```
+Test:
+```bash
+npx hardhat test
